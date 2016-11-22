@@ -1,0 +1,42 @@
+/* Rosa Section */
+.rosa {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color:white;
+  /*content*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* User Section */
+.user {
+  /*position*/
+  position: absolute;
+  bottom: 0;
+  /*outlook*/
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.input-box {
+  /*outlook*/
+  height: 100%;
+  border: none;
+}
+
+.input-bar {
+   /*outlook*/
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-top: 1px dashed grey;
+  outline: none;
+  padding: 5px 20px;
+  /*content*/
+  color: white;
+  
+}
